@@ -8,12 +8,7 @@ export function main() {
 
     let opcao: number;
 
-    const conta: Conta = new Conta(1,123,1,"Roger",10000);
-    conta.visualizar();
-    conta.sacar(105000);
-    conta.visualizar();
-    conta.depositar(5000);
-    conta.visualizar();
+  
 
      const contacorrente: ContaCorrente = new ContaCorrente(2, 123, 1, "Mariana", 15000, 1000);
     contacorrente.visualizar();
